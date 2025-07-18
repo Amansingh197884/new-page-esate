@@ -1,0 +1,134 @@
+
+@media screen and (max-width:600px){
+    .hero-section{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/1200x/2f/c3/59/2fc359e733b52a8281f5e763ce6d60e5.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 100;
+}
+}
+@media (min-width: 768px) {
+  
+
+
+  
+
+
+    
+
+    .search-bar {
+        grid-template-columns: 160px 160px 1fr max-content;
+        gap: 0;
+
+    }
+
+    .search-item .iconn {
+        display: none;
+    }
+
+    .search-item:not(:last-of-type)::after {
+        content: '';
+        position: absolute;
+        top: 16px;
+        left: 100%;
+        bottom: 16px;
+        width: 1px;
+        background-color: var(--new-90-);
+
+    }
+
+    .search-btn {
+        height: 100%;
+        margin-inline-start: 8px;
+    }
+
+
+
+  
+}
+
+
+@media (min-width:992px) {
+   
+    .container {
+        max-width: 950px;
+
+    }
+
+    .hero .container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 20px;
+
+    }
+
+    .hero-content {
+        grid-column: 1 /7;
+    }
+
+    .search-bar {
+        min-width: max-content;
+        grid-template-columns: 160px 220px 1fr max-content;
+
+    }
+
+    .search-item .search-item-field {
+        height: 84px;
+        padding-inline: 24px;
+        padding-block-end: 16px;
+    }
+
+    .search-item .label {
+        top: 16px;
+        left: 24px;
+    }
+
+    .search-item .iconn {
+        display: block;
+        right: 24px;
+    }
+
+}
+
+@media screen and (min-width:1440px){
+
+
+.container{
+    max-width: 1460px;
+}
+.hero .container{
+    min-height: 580px;
+    align-items: center;
+}
+.hero-content{
+    grid-column: 1/ 6;
+}
+
+
+
+} 
+
+@media screen and (min-width: 992px){
+ 
+}
+@media (min-width: 992px) {
+    .search-bar {
+        min-width: max-content;
+        grid-template-columns: 160px 220px 1fr max-content;
+    }
+}
+
+@media (min-width: 768px) {
+    .search-bar {
+        grid-template-columns: 160px 160px 1fr max-content;
+        gap: 0;
+    }
+}
