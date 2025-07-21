@@ -11,6 +11,8 @@
 --text-color: #202020;
 --light-color2: #f7f7f7;
 --font-family:"Manrope", sans-serif;
+    /* --bs-offcanvas-width: 200px !important; */
+
 }
 
 *{
@@ -23,7 +25,10 @@ body{
     font-family: var(--font-family);
     background: var(--light-color);
 }
-
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl 
+{
+    width: 200px !important;
+}
 
 .logo{
     width: 100px;
