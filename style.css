@@ -164,14 +164,13 @@ a {
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), url(https://i.pinimg.com/736x/80/e5/19/80e519cd45a49bb07c22de8b1045acdc.jpg);
     background-size: cover;
-    background-position: center;
     position: relative;
     overflow: hidden;
     animation: change 15s infinite linear;
-    /* text-align: start; */
-    align-items: center;
-
+background-position: center;    align-items: center;
+/* background-repeat: no-repeat; */
     padding-top: 125px;
+    background-attachment: fixed;
 
 }
 
