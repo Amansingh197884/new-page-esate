@@ -58,18 +58,88 @@
     padding-bottom: 1px !important;
 }
 .card-try-2{
-    top: 42% !important;
+    top: 39% !important;
 
 }
 .card-try-1{
-    top: 40% !important;
+    top: 37% !important;
 }.card-try-3{
-        top: 48% !important;
+        top: 44% !important;
 
 }
 .card-new {
     background-color: #fff;
   
     padding: 30px 13px !important;
+}
+.free-form .lnk-default {
+    border: 2px solid transparent;
+    position: relative;
+    bottom: 0px !important;
+}
+.free-form .lnk-default {
+    border: 0;
+    margin-left: 0px !important;
+}
+.consult-text {
+    margin-top: 0px !important;
+    padding-right: 0px !important;
+}
+.footer-title{
+    text-align: start !important;
+}
+.foote-satrt ul{
+    padding-left: 0rem !important;
+    padding-bottom: 5px;
+}
+.top-footer {
+    padding: 25px 0 15px !important;
+    border-bottom: 1px solid #a08341;
+}
+.free-form input{
+    width: 300px !important;
+}
+.free-img img{
+        position: relative;
+    top: 0 !important;
+    padding-left: 0px !important;
+    /* height: fit-content; */
+    /* height: 500px !important; */
+    visibility: visible !important;
+    width: 100% !important;
+
+}
+
+
+.free-form button {
+    display: inline-block;
+    height: 68px;
+    line-height: 68px;
+    padding: 0 !important;
+    color: #fafafa;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative !important;
+    z-index: 9;
+    overflow: hidden;
+    pointer-events: all;
+    background-color: #261f19;
+    /* display: flex
+; */
+}
+.free-form button {
+    border: 0 !important;
+    margin-left: 0 !important;
+    margin-top: 10px !important;
+        margin-bottom: 10px !important;
+
+}
+.free-form button {
+    border: 2px solid transparent;
+    position: relative;
+    bottom: 0px !important;
+}
+.card-like{
+    height: 329 ;
 }
 }
