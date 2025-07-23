@@ -261,7 +261,8 @@ background-position: center;    align-items: center;
 }
 
 .aman {
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .header-text {
@@ -297,6 +298,7 @@ background-position: center;    align-items: center;
     /* font-size: 15px; */
     font-weight: 800;
     padding-bottom: 3px;
+    /* margin-bottom: 10px; */
 }
 
 .card-new {
@@ -343,9 +345,35 @@ background-position: center;    align-items: center;
     width: 50px;
 }
 
-.card-try {
+.card-try-1{
     position: absolute;
     top: 48%;
+    left: 30px;
+    display: inline-block;
+    padding: 0 10px;
+    height: 26px;
+    line-height: 26px;
+    color: #f4eeee;
+    font-size: 11px;
+    font-weight: 500;
+    background-color: #362b22;
+}
+.card-try-2{
+    position: absolute;
+    top: 51%;
+    left: 30px;
+    display: inline-block;
+    padding: 0 10px;
+    height: 26px;
+    line-height: 26px;
+    color: #f4eeee;
+    font-size: 11px;
+    font-weight: 500;
+    background-color: #362b22;
+}
+.card-try-3{
+    position: absolute;
+    top: 53%;
     left: 30px;
     display: inline-block;
     padding: 0 10px;
@@ -567,4 +595,17 @@ a {
     height: 400px;
     width: 100%;
     padding: 35px;
+}
+
+
+.AMAN{
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: none!important;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: none!important;
 }

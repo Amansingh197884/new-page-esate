@@ -49,5 +49,27 @@
    
 
 }
+.img-t{
+          padding: 4px;
+        margin-bottom: 20px;
+    }
+    .header-text {
+    padding-left: 3px !important;
+    padding-bottom: 1px !important;
+}
+.card-try-2{
+    top: 42% !important;
 
+}
+.card-try-1{
+    top: 40% !important;
+}.card-try-3{
+        top: 48% !important;
+
+}
+.card-new {
+    background-color: #fff;
+  
+    padding: 30px 13px !important;
+}
 }
